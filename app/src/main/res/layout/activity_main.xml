@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:fontFamily="arial"
+        android:textSize="30sp"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:onClick="opemWeb"
+        android:text="@string/about_alc"
+        android:textAllCaps="true" />
+
+    <Button
+        android:background="@android:color/holo_orange_light"
+        android:textColor="@android:color/black"
+        android:id="@+id/bt_my_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:text="@string/my_profile"
+        android:textAllCaps="true" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

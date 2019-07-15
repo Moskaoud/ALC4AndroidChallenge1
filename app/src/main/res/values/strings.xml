@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ALC4.0Phase1Android</string>
+    <string name="activity_a">ALC 4 Phase 1</string>
+
+    <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="about_alc">About ALC</string>
+    <string name="my_profile">My Profile</string>
+
+    <string name="name">Mostafa Mohamed</string>
+    <string name="track">Track: Android</string>
+    <string name="country">Country: Egypt</string>
+    <string name="email">Email: mukaoud@yahoo.com</string>
+    <string name="phone_number">Phone Number:   +201110543621</string>
+    <string name="slack_user_name">Slack Username: @ moskaoud</string>
+
+
+</resources>
